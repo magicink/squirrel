@@ -44,6 +44,19 @@ public class Squirrel : StateMachine
     // Input handling -------------------------------------------------------
     private InputSystem_Actions _inputActions;
 
+    [Header("Effects")]
+    [SerializeField, Tooltip("Optional particle system for movement trail.")]
+    private ParticleSystem movementParticles;
+
+    /// <summary>
+    /// Particle system used for the movement trail (assign in inspector).
+    /// </summary>
+    public ParticleSystem MovementParticles
+    {
+        get => movementParticles;
+        set => movementParticles = value;
+    }
+
     /// <summary>
     /// Latest move input read from the input system (X=horizontal, Y=vertical).
     /// </summary>
