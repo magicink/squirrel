@@ -1,0 +1,49 @@
+# Auto-detect text files and normalize line endings to LF
+* text=auto
+
+# Force LF for common text file types used in Unity projects
+*.cs     text eol=lf
+*.shader text eol=lf
+*.compute text eol=lf
+*.txt    text eol=lf
+*.md     text eol=lf
+*.json   text eol=lf
+*.yml    text eol=lf
+*.yaml   text eol=lf
+*.xml    text eol=lf
+*.asmdef text eol=lf
+*.asmref text eol=lf
+*.meta   text eol=lf
+
+# Unity YAML files: use Unity's smart merge driver if configured
+*.unity  merge=unityyamlmerge eol=lf
+*.prefab merge=unityyamlmerge eol=lf
+*.asset  merge=unityyamlmerge eol=lf
+*.anim   merge=unityyamlmerge eol=lf
+*.controller merge=unityyamlmerge eol=lf
+*.mask   merge=unityyamlmerge eol=lf
+
+# Treat binary files as binary to avoid end-of-line conversion and merge attempts
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.tga    binary
+*.psd    binary
+*.fbx    binary
+*.obj    binary
+*.wav    binary
+*.mp3    binary
+*.ogg    binary
+*.mp4    binary
+*.mov    binary
+*.zip    binary
+*.7z     binary
+*.exe    binary
+*.dll    binary
+
+# Keep Git from attempting merges on certain large generated folders
+/Library/** binary
+/Temp/**  binary
+/Bee/**   binary
+
+# End of file
