@@ -1287,7 +1287,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: 0, y: 2, z: 0}
     speed: 2
-    m_Value: {x: 0, y: 0.5, z: 0}
+    m_Value: {x: 0, y: 2, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1339,7 +1339,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 2.8565714
     speed: 2
-    m_Value: 0.8660254
+    m_Value: 2.8565714
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1446,7 +1446,7 @@ MonoBehaviour:
       m_Data: 79902
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 61952
+    - m_Data: 62712
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1479,7 +1479,7 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 61952
+    - m_Data: 62712
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
